@@ -9,16 +9,15 @@ body {
 
 body{
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, sans-serif;
+  display: -webkit-flex;
+  display: flex;
 }
 
 #page{
-  width: 65em;
-  margin-left: auto;
-  margin-right: auto;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: column;
-  flex-direction: column;
+  -webkit-flex: 0 1 65em;
+  flex: 0 1 65em;
+  -webkit-flex-flow: column;
+  flex-flow: column;
 
 }
 
