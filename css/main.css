@@ -13,8 +13,10 @@ header{
   margin-right: auto;
   background-color: #fff;
   opacity: .6;
-  padding-bottom: .25em;
-  padding-left: .5em;
+  padding: 0 .5em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 
   }
 
@@ -27,32 +29,45 @@ nav{
 nav ul{
   margin:0;
   padding:0;
+  text-align: justify;
 
 }
 
+nav ul:after{
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
 nav li{
-  display: inline;
+  display: inline-block;
   margin:0;
   padding:0;
 }
 
+nav li:first-child a{
+  margin-left: 0;
+}
+
+nav li:last-child a{
+  margin-right:0;
+}
+
 nav a:link, nav a:visited{
   color: #2d2d2d;
-  background: #cecdd1;
   padding: .3em;
-  display: inline-block;
   margin: 0 1em;
   text-decoration: none;
 }
 
 h1{
-  padding-left: 1em;
   font-weight: 100;
   font-size: 3.5em;
 
 }
 
 #content{
+  margin-top: -1em;
   width: 60em;
   margin-left: auto;
   margin-right: auto;
