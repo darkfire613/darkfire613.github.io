@@ -11,13 +11,9 @@
     <link rel="stylesheet" href="/css/syntax.css">
   </head>
   <body>
-    <div class="flexcontainer">
-      <div id="page">
-        {% include header.html %}
-        <div id="content">
-          {{ content }}
-        </div>
-      </div>
+    {% include header.html %}
+    <div id="content">
+      {{ content }}
     </div>
   </body>
 </html>
