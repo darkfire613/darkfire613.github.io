@@ -1,21 +1,24 @@
-body {
-  background-color: #393544;
-
-}
-
-
-
 /* body */
 
 body{
+  background-color: #393544;
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+.flexcontainer{
   display: -webkit-flex;
   display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+
 }
 
 #page{
-  -webkit-flex: 0 1 65em;
-  flex: 0 1 65em;
+  -webkit-flex: 0 1 60em;
+  flex: 0 1 60em;
   -webkit-flex-flow: column;
   flex-flow: column;
 
@@ -24,11 +27,12 @@ body{
 header{
   flex: 0 1 100%;
   padding-left: 1em;
+  margin-bottom: 0;
   background-color: #FFF;
-  opacity: .5;
+  opacity: .7;
   -webkit-order: 1;
   order: 1;
-}
+  }
 
 nav{
   flex: 0 0 60%;
@@ -39,7 +43,7 @@ nav{
 nav li{
   display: inline;
   padding: 0;
-  margin-left: .5em;
+  margin: 0;
   font-weight: 300;
   background: #FFF;
 }
@@ -51,10 +55,12 @@ h1{
 }
 
 #content{
+  margin-top:0;
   -webkit-flex: 0 1 100%;
   flex: 0 1 100%;
   -webkit-order: 2;
   order: 2;
+  background-color: #f2f2f2;
 }
 
 article{
