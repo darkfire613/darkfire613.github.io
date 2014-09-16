@@ -75,11 +75,11 @@ nav a:link, nav a:visited{
 }
 
 article{
-  max-width: 60em;
-  min-width: 30em;
+  width: 50em;
 }
 
 article p{
+  margin: 0 auto;
   font-size: 1em;
   font-weight: normal;
 }
