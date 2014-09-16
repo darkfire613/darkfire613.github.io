@@ -43,9 +43,11 @@ a{
 h2.title{
   font-size: 2em;
   font-weight: 300;
+  margin: .25em 0;
 }
 
 h3.date{
+  margin: 0;
   font-size: 1.2em;
   font-weight: 300;
 }
