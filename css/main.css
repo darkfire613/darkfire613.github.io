@@ -122,6 +122,7 @@ article p{
 }
 
 span.caption{
+  text-align: center;
   font-size: .8em;
   color: #6e6e6e;
 }
