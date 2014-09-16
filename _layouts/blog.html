@@ -7,7 +7,7 @@ layout: page
     <a href = "{{ post.url }}">
       <h2 class="title"> {{post.title}} </h2>
     </a>
-    <h3 class="date">{{ page.date|date:"%-d %B %Y" }}</h3>
+    <h3 class="date">{{ post.date|date:"%-d %B %Y" }}</h3>
     <div>
       {{ post.excerpt}}
       <a href="{{ post.url }}">
