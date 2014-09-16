@@ -12,5 +12,5 @@ request.onload = function() {
     // add the random line in a div
     document.getElementById( 'tagline' ).innerHTML = randomLine;
 };
-request.open( 'GET', '{{ site:url }}/taglines.txt', true );
+request.open( 'GET', 'http://owenmonsma.com/taglines.txt', true );
 request.send();
