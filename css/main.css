@@ -100,7 +100,8 @@ nav a:link, nav a:visited{
 
 article{
   margin: 0 auto;
-  width: 50em;
+  max-width: 50em;
+  min-width: 20em;
 }
 
 article p{
