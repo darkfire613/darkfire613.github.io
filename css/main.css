@@ -1,7 +1,6 @@
 /* body */
 
 body{
-  position: relative;
   width: 100%;
   min-height: 100%;
   margin: 0;
@@ -76,6 +75,8 @@ nav a:link, nav a:visited{
 }
 
 #content{
+  min-height: 100%;
+  height: auto;
   margin: 0;
   padding:0 5em 0 5em;
   overflow: hidden;
