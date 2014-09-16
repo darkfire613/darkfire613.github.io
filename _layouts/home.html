@@ -12,17 +12,20 @@
   </head>
   <body>
     {% include header.html %}
-    <nav>
-      <ul>
-        <li><a href="/">Blog</a></li>
-        <li><a href="/code/">Code</a></li>
-        <li><a href="/design/">Design</a></li>
-        <li><a href="/about/">About</a></li>
-      </ul>
-    </nav>
-    <div id="content">
-      {{ content }}
-      {% include footer.html %}
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="/">Blog</a></li>
+          <li><a href="/code/">Code</a></li>
+          <li><a href="/design/">Design</a></li>
+          <li><a href="/about/">About</a></li>
+        </ul>
+      </nav>
+      <div id="content">
+        {{ content }}
+      </div>
+      <div class="push"></div>
     </div>
+    {% include footer.html %}
   </body>
 </html>

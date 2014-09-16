@@ -46,6 +46,13 @@ h2.title{
   right: 5px;
 }
 
+.container{
+  margin: 0 0 -1.7em;
+  padding: 0;
+  width: 100%;
+  min-height: 100%
+}
+
 nav{
   padding: 0 5px 0 0;
   border-width:0 2px 0 0;
@@ -75,8 +82,6 @@ nav a:link, nav a:visited{
 }
 
 #content{
-  min-height: 100%;
-  height: auto;
   margin: 0;
   padding:0 5em 0 5em;
   overflow: hidden;
@@ -132,9 +137,13 @@ span.caption{
   margin-left: auto;
   margin-right: auto;
 }
+.push{
+  height: 1.7em;
+}
 
 footer{
   width: 100%;
+  height: 1.7em;
   text-align: center;
   position: absolute;
   bottom: 0;
