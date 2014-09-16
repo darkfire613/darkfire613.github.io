@@ -71,7 +71,7 @@ nav a:link, nav a:visited{
 
 #content{
   margin: 0;
-  padding:0 0 0 60px;
+  padding:0 5em 0 5em;
   overflow: hidden;
 
 }
