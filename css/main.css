@@ -84,6 +84,11 @@ article p{
   font-weight: normal;
 }
 
+.postbody{
+  font-size: 1em;
+  font-weight: normal;
+}
+
 footer{
   width: 100%;
   text-align: center;
