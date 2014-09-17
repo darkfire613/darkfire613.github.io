@@ -118,6 +118,11 @@ nav a:link, nav a:visited{
   margin: 0;
 }
 
+.entries li:not(:first-child){
+  margin-top: 2.5em;
+
+}
+
 .entries a{
   text-decoration: none;
   color: #407396;
