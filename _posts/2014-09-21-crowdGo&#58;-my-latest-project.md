@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CrowdGo: my latest project
+title: CrowdGo&#58; my latest project
 ---
 Recently I've been working on a web application called CrowdGo. Basically, it's a way for people to play the ancient strategy board game Go online with other people, but with a twist: everyone is playing on the same board. The project's currently deployable state can be seen [here](/crowdgo/), and the GitHub repository can be found [here](https://github.com/darkfire613/crowdgo/). Currently it doesn't do much. Even the basic game logic isn't implemented. All you can do right now is click to place stones on the board. But if you're interested in more in-depth explanation of the future of this project, read on.
 
@@ -18,7 +18,7 @@ All this code is visible on the GitHub repo as well, but since that will be adde
 
 When the player clicks on the board to play a stone, we're able to get the x and y coordinates. However, these coordinates can be anywhere on the canvas, which isn't useful for drawing the Go stones, since we want the stones aligned to the grid. Instead, we handle this as follows:
 
-```
+{% highlight javascript %}
 
 //Variable ADJUST THESE
 var scale = 0.6;
@@ -45,7 +45,7 @@ j = Math.round(j);
 var centerX = (SQUARE_SIZE / 4 ) + (i * SQUARE_SIZE);
 var centerY = (SQUARE_SIZE / 4 ) + (j * SQUARE_SIZE);
 
-```
+{% endhighlight %}
 
 **scale:** The amount the board should be scaled by. Decimal value between 0 and 1. This scales down the Reference which has grid squares of 100x100. In this example, the board is 60% reference size.
 
