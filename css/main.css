@@ -148,6 +148,10 @@ span.caption{
   color: #6e6e6e;
 }
 
+code{
+  background-color: #ccc;
+}
+
 .postbody img{
   width: 80%;
   margin-left: auto;
