@@ -149,6 +149,7 @@ span.caption{
 }
 
 code{
+  display: block;
   background-color: #ccc;
 }
 
