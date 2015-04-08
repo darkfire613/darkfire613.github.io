@@ -30,6 +30,35 @@ h1{
   font-weight: 100;
 }
 
+
+a{
+  color: #407396;
+  text-decoration: none;
+}
+
+.container{
+  min-height: 100%;
+  position: relative;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#content{
+  /* max-width: 50em; */
+  min-width: 20em;
+  margin: 0;
+  padding:0 10em 1.7em 5em;
+  overflow: hidden;
+
+}
+
+code{
+  display: block;
+  background-color: #ddd;
+}
+
+/* header */
+
 h2#tagline{
   margin: 0;
   color: #fff;
@@ -44,34 +73,12 @@ h2#tagline{
   /*bottom: 1em;*/
 }
 
-a{
-  color: #407396;
-  text-decoration: none;
-}
-
 #name{
   position: absolute;
   left: 5px;
 }
 
-h2.title{
-  font-size: 2em;
-  font-weight: 300;
-  margin: .25em 0;
-}
-
-h3.date{
-  margin: 0;
-  font-size: 1.2em;
-  font-weight: 300;
-}
-
-.container{
-  min-height: 100%;
-  position: relative;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* nav */
 
 nav{
   padding: 0 5px 0 0;
@@ -98,13 +105,18 @@ nav a:link, nav a:visited{
   text-decoration: none;
 }
 
-#content{
-  /* max-width: 50em; */
-  min-width: 20em;
-  margin: 0;
-  padding:0 10em 1.7em 5em;
-  overflow: hidden;
+/* blog */
 
+h2.title{
+  font-size: 2em;
+  font-weight: 300;
+  margin: .25em 0;
+}
+
+h3.date{
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: 300;
 }
 
 .entries{
@@ -155,11 +167,6 @@ span.caption{
   color: #6e6e6e;
 }
 
-code{
-  display: block;
-  background-color: #ddd;
-}
-
 .postbody img{
   width: 80%;
   margin-left: auto;
@@ -167,6 +174,7 @@ code{
 }
 
 /* code */
+
 #codeProjects{
   padding: 0;
   margin: 0;
@@ -183,6 +191,19 @@ code{
   width: 100px;
   height: 100px;
   margin-right: 1em;
+}
+
+/* design */
+
+/* about */
+
+#selfie{
+  float: left;
+  margin-right: 1em;
+}
+
+#bio{
+  
 }
 
 /* footer */
