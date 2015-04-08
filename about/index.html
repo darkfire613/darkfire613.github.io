@@ -5,7 +5,27 @@ header: About me
 ---
 <img id="selfie" src="{{ site.url }}/assets/owen.jpg" />
 <article id="bio">
-  <p>Hi, I'm Owen. I'm 20 years old, and will be until my next birthday. I like coding, design, writing, and other things. I'm a computer science major at the University of Idaho, and aspire to be an indie game developer since it's a way to combine all of my various creative pursuits. I also enjoy having opinions on things, and sometimes I share those opinions here.</p>
+  <p>Hi, I'm Owen. I'm 20 years old, and will be until my next birthday. I like coding, graphic design, writing, and other things. I'm a computer science major at the University of Idaho, and aspire to be an indie game developer since it's a way to combine all of my various creative pursuits. I also enjoy having opinions on things, and sometimes I share those opinions here.</p>
 
   <p>In my free time I also study Japanese and like playing games and talking about them. Sometimes I stream on Twitch, which you can find <a href = "http://twitch.tv/darkfire613/">here.</a></p>
+
+  <p>If for some reason you want to contact me (or hire me! :D) you can email me here:</p>
+
+  <form action="/handlingpage" method="post">
+    <div>
+      <label for="formname">Name:</label>
+      <input type="text" id="formname" name="user_name" />
+    </div>
+    <div>
+      <label for="formemail">Email:</label>
+      <input type="text" id="formemail" name="user_email" />
+    </div>
+    <div>
+        <label for="formmsg">Message:</label>
+        <textarea id="formmsg" name="user_msg"></textarea>
+    </div>
+    <div class="submit">
+      <button type="submit">Submit</button>
+    </div>
+  </form>
 </article>
