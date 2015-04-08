@@ -3,7 +3,7 @@ layout: home
 ---
 
 <article>
-  <h2 class="title">{{ page.title }}</h2>
+  <a href = "{{ post.url }}"><h2 class="title">{{ page.title }}</h2></a>
   <h3 class="date">{{ page.date|date:"%-d %B %Y" }}</h3>
   <div class="postbody">
     {{ content }}
