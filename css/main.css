@@ -163,31 +163,43 @@ h3.date{
 }
 
 span.caption{
+  width: 100%;
+  display: block;
   text-align: center;
   font-size: .8em;
   color: #6e6e6e;
 }
+span.designCaption{
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: .8em;
+  color: #000;
+  margin-bottom: 1em;
+}
 
 .postbody img{
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 60%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-top: 1em;
 }
 
 /* code */
 
-#codeProjects{
+#projects{
   padding: 0;
   margin: 0;
 }
 
-#codeProjects li{
+#projects li{
   list-style-type: none;
   margin: .5em, 0;
   padding: 0;
 }
 
-#codeProjects img{
+#projects img{
   float: left;
   width: 100px;
   height: 100px;
