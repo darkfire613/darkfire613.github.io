@@ -55,6 +55,7 @@ a{
 
 article{
   margin: 0 auto;
+  margin-bottom: 1em;
   overflow: hidden;
 }
 
