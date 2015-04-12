@@ -46,16 +46,14 @@ a{
 #content{
   /* max-width: 50em; */
   min-width: 20em;
-  margin: 0;
-  margin-top: 1.5em;
+  margin: 1.5em 0 0 0;
   padding:0 10em 1.7em 5em;
   overflow: hidden;
 
 }
 
 article{
-  margin: 0 auto;
-  margin-bottom: 1em;
+  margin: 0 auto 1em auto;
   overflow: hidden;
 }
 
@@ -133,8 +131,7 @@ h3.date{
 
 .entries{
   padding: 0;
-  margin: 0;
-  margin-bottom: 1em;
+  margin: 0 0 1em 0;
 
 }
 
@@ -184,8 +181,7 @@ span.designCaption{
   max-width: 60%;
   height: auto;
   display: block;
-  margin: 0 auto;
-  margin-top: 1em;
+  margin: 1em auto 0 auto;
 }
 
 /* code */
