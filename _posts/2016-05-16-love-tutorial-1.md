@@ -9,9 +9,9 @@ Before we begin, a couple notes: I'm developing with Mac OS X, so while the proc
 
 ## Setting up for easy development on OS X
 
-When you first download the Love runtime from the website, you might feel a bit lost. The easiest way to use it, I've found, is to add an alias to your bash profile to run your current project.
+When you first download the Love runtime from the website, you might feel a bit lost. The easiest way to use it is to add an alias to your bash profile to run your current project (if you installed on Linux, this should be set up already).
 
-Type `vim ~/.bash_profile` to open up your bash profile, and then add an alias pointing to the Love executable (for those without vim experience, move the cursor to a fresh line and press "i" to enter insert mode). On OS X, the line should look something like this: `alias love="/Applications/love.app/Contents/MacOS/love"` but it will vary depending on where you've placed the executable. Once that's added press`esc` to exit insert, then `shift+:` to go to the command bar and type `wq!` to save and quit vim.
+Type `vim ~/.bash_profile` to open up your bash profile with vim, and then add an alias pointing to the Love executable (for those without vim experience, press "i" to enter insert mode and type): `alias love="/Applications/love.app/Contents/MacOS/love"`, assuming you've placed the Love executable in your Applications folder. Once that's added press `esc` to exit insert, then `shift+:` to go to the command bar and type `wq!` to save and quit vim.
 
 Now that you've added this shortcut, you can easily test your game directly from the command line. As long as you're in your game's working directory (the one with your `main.lua` file) you'll be able to type `love ./` to run your game.
 
