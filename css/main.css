@@ -46,6 +46,7 @@ a{
 #content{
   /* max-width: 50em; */
   min-width: 20em;
+  max-width: 80em;
   margin: 1.5em 0 0 0;
   padding:0 10em 1.7em 5em;
   overflow: hidden;
