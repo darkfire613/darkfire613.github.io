@@ -62,9 +62,14 @@ article p{
   font-weight: normal;
 }
 
+/* code snippets */
+
 code{
-  display: block;
   background-color: #ddd;
+}
+
+pre{
+  display: block;
 }
 
 /* header */
