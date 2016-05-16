@@ -70,7 +70,8 @@ code{
 
 pre code{
   display: block;
-  width: 80%;
+  border-left-width: thick;
+  border-left-color: #aaa;
 }
 
 /* header */
