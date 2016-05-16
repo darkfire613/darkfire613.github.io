@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 'Game Development with love2D: part 1'
+title: 'Game Development with Love2D: Part 1'
 ---
 
-Recently, I've been playing with the [love2d](http://love2d.org) framework for 2d games, and I've found it truly delightful to use. However, the biggest sticking point I had was the lack of good tutorials that cover how to get started while also teaching good game development practices as well, which is what this tutorial series aims to tackle. Today we're going to be starting with getting set up to develop with Love, and drawing your first sprite to the screen.
+Recently, I've been playing with the [love2d](http://love2d.org) framework for 2d games, and I've found it truly delightful to use. However, the biggest sticking point I had was the lack of good tutorials that cover how to get started while also teaching good game development practices, which is what this tutorial series aims to tackle. Today we're going to be starting with getting set up to develop with Love, and drawing your first sprite to the screen.
 
 Before we begin, a couple notes: I'm developing with Mac OS X, so while the procedure is probably similar with Linux, it's likely very different on Windows. Secondly, this tutorial assumes some programming knowledge already. You don't need to be fluent in Lua, but knowing at least one language, as well as working knowledge of bash, will be useful. A great reference is this series on [Lua for Programmers](http://nova-fusion.com/2012/08/27/lua-for-programmers-part-1/).
 
@@ -84,7 +84,7 @@ function love.load()
   player = love.graphics.newImage('assets/player.png')
 end
 ```
-```
+```lua
 function love.draw()
   love.graphics.draw(player, 100, 100)
 end
