@@ -208,7 +208,8 @@ span.designCaption{
 
 #projects li{
   list-style-type: none;
-  margin: .5em, 1em;
+  display: block;
+  margin: 3em 0em;
   padding: 0;
 }
 
