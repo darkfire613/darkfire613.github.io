@@ -127,7 +127,7 @@ Consider the following snippet of code used to move the player right:
 ```lua
 SPEED = 50
 
-love.update(dt)
+function love.update(dt)
   Player.x = Player.x + (SPEED * dt)
 end
 ```
@@ -139,7 +139,7 @@ Say then that we want our player to move at a rate of 50 pixels per second. We k
 ```lua
 SPEED = .833
 
-love.update(dt)
+function love.update(dt)
   Player.x = Player.x + SPEED
 end
 ```
