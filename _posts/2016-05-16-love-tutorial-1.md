@@ -77,7 +77,9 @@ if we run our game now (with `love ./` if you added the bash alias above), we sh
 
 Doesn't look like much yet, but this is the blank canvas for the whole rest of our game. Let's make it a little bit more interesting.
 
-Add a folder to your project directory called `assets` and use any image editing software to add a small picture to it named `player.png`. In my case, I used a 32x32 pixel blue square. Now, modify the load and draw functions as follows:
+![Love Tutorial: Player image]({{ site.url }}/assets/love-tutorial/player.png)
+
+Add a folder to your project directory called `assets` and use any image editing software to add a small picture to it named `player.png`. In my case, I used a 32x32 pixel blue square, above. Feel free to download it and place in your directory. Now, modify the load and draw functions as follows:
 
 ```lua
 function love.load()
