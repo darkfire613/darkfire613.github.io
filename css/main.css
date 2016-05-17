@@ -192,6 +192,13 @@ span.designCaption{
   margin: 1em auto 0 auto;
 }
 
+.postbody video{
+  max-width: 60%;
+  height: auto;
+  display: block;
+  margin: 1em auto 0 auto;
+}
+
 /* code */
 
 #projects{
