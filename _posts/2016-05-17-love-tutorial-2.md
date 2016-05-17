@@ -56,6 +56,7 @@ end
 ```
 
 The output of these two functions would be as follows (again, note the output for the first table could be in any order):
+
 ```
 y,80
 x,50
