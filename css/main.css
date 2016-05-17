@@ -208,7 +208,7 @@ span.designCaption{
 
 #projects li{
   list-style-type: none;
-  margin: .5em, 0;
+  margin: .5em, 1em;
   padding: 0;
 }
 
@@ -218,6 +218,8 @@ span.designCaption{
   height: 100px;
   margin-right: 1em;
 }
+
+
 
 /* design */
 
