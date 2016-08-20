@@ -1,3 +1,4 @@
 
 collections:
-  - japanposts
+  japanposts:
+    output: true
