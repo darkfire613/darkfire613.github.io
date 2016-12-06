@@ -229,7 +229,7 @@ span.designCaption{
 #selfie{
   float: left;
   width: 300px;
-  margin: 0;
+  margin: 1em;
 }
 
 #bio{
