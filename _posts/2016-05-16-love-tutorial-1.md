@@ -97,3 +97,5 @@ The first function call returns an image at the specified file path, and we put 
 ![Love Tutorial: Player Drawn]({{ site.url }}/assets/love-tutorial/screenshot-2.png)
 
 We've now got the basic framework for our game set up, and have learned how to draw an image on the screen! In the next tutorial, coming in a couple days or so, we'll look at creating our first object for the player, and how to handle input from the keyboard. Stay tuned!
+
+You can find the source files for all the tutorials [here](https://github.com/darkfire613/love-tutorials).

@@ -4,6 +4,8 @@ title: 'Game Development with Love2D: Part 2'
 ---
 Welcome back! In the [first tutorial]({{ site.url }}/2016/05/16/love-tutorial-1.html), we got Love set up and ready to use to make games. In this second tutorial, we're going to create a separate object for the player, and look at how to handle keyboard input to move the player around. We'll also learn the theory behind Lua tables, as well as why delta time works.
 
+As always, the source can be found online [here](https://github.com/darkfire613/love-tutorials).
+
 ## Making the player
 Currently, our player variable is simply the image we're using to draw it on the screen. It contains no other useful data that a player entity in a game world might need, like location, equipment, or health. Let's change that. Go ahead and add a new file to your directory, named `player.lua`, and open it up in your text editor.
 
@@ -17,7 +19,7 @@ Add the following code to your player file. Afterward, we'll go line-by-line aga
 local player = {}
 
 function player:setup()
-  self.img  = love.graphics.newImage('player.png')
+  self.img  = love.graphics.newImage('assets/player.png')
   self.x    = 100
   self.y    = 100
 end
