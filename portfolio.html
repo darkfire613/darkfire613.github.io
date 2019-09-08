@@ -1,0 +1,11 @@
+---
+layout: default
+title: Portfolio
+---
+<h1>Portfolio</h1>
+
+{% for item in site.data.projects %}
+<div class="project">
+	<h2>{{ item.name }}</h2>
+</div>
+{% endfor %}

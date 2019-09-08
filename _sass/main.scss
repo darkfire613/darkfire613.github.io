@@ -1,0 +1,154 @@
+$bg-color: #0f0f0f;
+$text-color: #f0f0f0;
+$highlight-color: #d41b66;
+$neutral-gray: #5d5d5d;
+
+$header-font: "Futura", sans-serif;
+$h1-size: 3em;
+$h2-size: 2.5em;
+
+$body-font: "Palatino", serif;
+$body-size: 1.1em;
+
+$nav-size: 1.5em;
+
+$mobile-width: 500px;
+
+$desktop-width: 1000px;
+
+html
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+	color: $text-color;
+}
+
+a
+{
+	color: $highlight-color;
+	text-decoration: none;
+}
+
+#navbox
+{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border-bottom: 6px solid $highlight-color;
+}
+
+nav
+{
+	margin: 1em auto .5em;
+	width: 100%;
+	color: $highlight-color;
+	display: flex;
+	justify-content: space-between;
+
+	a
+	{
+		font-weight: bold;
+		font: $nav-size $header-font;
+		margin: 0 .5em;
+	}
+
+}
+
+h1
+{
+	margin: 0;
+	width: 100%;
+	color: $highlight-color;
+	font: condensed $h1-size $header-font;
+}
+
+h2
+{
+	margin: 0;
+	color: $text-color;
+	font: condensed $h2-size $header-font;
+}
+
+p
+{
+	color: $text-color;
+	font: $body-size $body-font;
+}
+
+/* Mobile (default) style */
+
+.container
+{
+	background-color: $bg-color;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+	div
+	{
+		width: 100%;
+	}
+}
+
+#bio
+{
+	width: 100%;
+}
+
+#portrait
+{
+	width: 100%;
+	
+	img
+	{
+		max-width: 100%;
+	}
+}
+
+
+
+/* Tablet/Desktop style */
+
+@media only screen and (min-width: $mobile-width)
+{
+	nav
+	{
+		width: $desktop-width;
+		justify-content: flex-start;
+	}
+
+	.container
+	{
+		width: $desktop-width;
+		margin: 0 auto;
+		justify-content: space-between;
+	}
+
+	#bio
+	{
+		margin: 0;
+		width: 50%;
+	}
+
+	#portrait
+	{
+		margin: 0;
+		max-width: 50%;
+	}
+}
+
+.project
+{
+	background-color: $neutral-gray;
+	margin: 1em;
+	width: 250px;
+	height: 250px;
+}
