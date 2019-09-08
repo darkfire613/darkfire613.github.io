@@ -6,6 +6,9 @@ title: Portfolio
 
 {% for item in site.data.projects %}
 <div class="project">
-	<h2>{{ item.name }}</h2>
+	<a href="{{ item.link }}"><h2>{{ item.name }}</h2></a>
+	<div class="repo-link">
+		<a href="{{ item.repo }}">GitHub Repo</a>
+	</div>
 </div>
 {% endfor %}
