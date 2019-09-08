@@ -3,6 +3,7 @@
   repo: https://github.com/darkfire613/haven
 - name: Project GamOS
   link: /project-gamos
+  repo: https://github.com/darkfire613/project-gamos
 - name: GameTable
   link: http://cs482final.herokuapp.com
   repo: https://github.com/darkfire613/GameTable
