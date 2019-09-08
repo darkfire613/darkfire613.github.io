@@ -108,6 +108,8 @@ footer
 	}
 }
 
+/* Homepage */
+
 #bio
 {
 	width: 100%;
@@ -123,7 +125,46 @@ footer
 	}
 }
 
+/* Portfolio */
 
+.project
+{
+	background-color: $neutral-gray;
+	margin: 1em;
+	width: 250px;
+	height: 250px;
+}
+
+
+/* Blog */
+
+ul
+{
+	list-style: none;
+}
+
+article
+{
+	width: 100%;
+	margin: 0;
+
+	h2
+	{
+		width: 100%;
+		margin: .5em;
+	}
+
+	h3
+	{
+		margin: .5em;
+		font: $header-font;
+	}
+
+	p
+	{
+		margin: .5em;
+	}
+}
 
 /* Tablet/Desktop style */
 
@@ -131,13 +172,13 @@ footer
 {
 	nav
 	{
-		width: $desktop-width;
+		max-width: $desktop-width;
 		justify-content: flex-start;
 	}
 
 	.container
 	{
-		width: $desktop-width;
+		max-width: $desktop-width;
 		margin: 0 auto;
 		justify-content: space-between;
 	}
@@ -153,12 +194,4 @@ footer
 		margin: 0;
 		max-width: 50%;
 	}
-}
-
-.project
-{
-	background-color: $neutral-gray;
-	margin: 1em;
-	width: 250px;
-	height: 250px;
 }
