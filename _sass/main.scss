@@ -132,19 +132,19 @@ footer
 	background-color: $neutral-gray;
 	margin: .5em;
 	width: 100%;
-	height: 300px;
+	height: $h2-size * 3;
 	position: relative;
 	text-align: center;
 
 	.repo-link
 	{
 		width: 100%;
+		height: $h2-size * 1.5;
 		box-sizing: border-box;
-		font-size: 1.5em;
-		padding: .5em;
 		position: absolute;
 		bottom: 0;
-		background-color: $text-color; 
+		background-color: $highlight-color;
+
 	}
 }
 
@@ -205,6 +205,5 @@ article
 	.project
 	{
 		max-width: 280px;
-		height: 300px;
 	}
 }
