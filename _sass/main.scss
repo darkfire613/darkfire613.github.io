@@ -6,6 +6,7 @@ $neutral-gray: #5d5d5d;
 $header-font: "Futura", sans-serif;
 $h1-size: 3em;
 $h2-size: 2.5em;
+$h3-size: 1.5em;
 
 $body-font: "Palatino", serif;
 $body-size: 1.1em;
@@ -76,6 +77,13 @@ h2
 	margin: 0;
 	color: $text-color;
 	font: condensed $h2-size $header-font;
+}
+
+h3
+{
+	margin: 0;
+	color: $text-color;
+	font: condensed $h3-size $header-font;
 }
 
 p
@@ -154,22 +162,23 @@ footer
 ul
 {
 	list-style: none;
+	padding: 0;
 }
 
 article
 {
 	width: 100%;
 	margin: 0;
+	padding: 0;
 
 	h2
 	{
 		width: 100%;
-		margin: .5em;
 	}
 
 	p
 	{
-		margin: .5em;
+		padding: .5em;
 	}
 }
 
