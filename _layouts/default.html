@@ -6,6 +6,9 @@
       content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
     <title>{{ page.title }}</title>
     <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+
+    {% feed_meta %}
+    {% seo %}
   </head>
   <body>
     {% include navigation.html %}
