@@ -4,4 +4,9 @@ layout: default
 <article>
 	<h2>{{ page.title }}</h2>
 	{{ content }}
+	
+	{% if page.segment %}
+		{% assign segment = site.data.segments[page.segment] %}
+		<em>{{ segment.description }}</em>
+	{% endif %}
 </article>

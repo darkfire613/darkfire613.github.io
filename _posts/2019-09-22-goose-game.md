@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Should I...play Untitled Goose Game?
+segment: Should I
 ---
 
 _Untitled Goose Game_ is a new release from developer House House and publisher Panic with a delightfully simple premise: you are a goose, and your goal is to create mayhem. You are guided by a twee notepad written in cursive with directions such as "make the groundskeeper wear his sun hat", leaving you in a series of miniature sandboxes full of characters and interactive items to accomplish these tasks.
