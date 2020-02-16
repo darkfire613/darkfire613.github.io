@@ -1,0 +1,14 @@
+---
+layout: default
+title: Events
+---
+<h1>Current Events</h1>
+A summer 2020 event, codenamed "Project Juniper", is currently in the works. Stay tuned.
+<br>
+<h1>Past Events</h1>
+
+{% for item in site.data.events %}
+<div class="event">
+	<a href="{{ item.link }}"><h2>{{ item.name }}</h2></a>
+</div>
+{% endfor %}
